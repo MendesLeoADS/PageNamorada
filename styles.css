@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff; /* Fundo branco */
+    color: #333; /* Cor do texto principal */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #d9534f; /* Borda vermelha */
+    border-radius: 10px;
+    background-color: #fefefe; /* Fundo muito leve para a área do conteúdo */
+}
+
+h1 {
+    color: #d9534f; /* Título em vermelho */
+}
+
+#quoteContainer {
+    font-size: 24px;
+    margin: 20px 0;
+    color: #d9534f; /* Cor das frases em vermelho */
+}
+
+button {
+    background-color: #d9534f; /* Fundo do botão em vermelho */
+    color: #fff; /* Texto do botão em branco */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c9302c; /* Cor do botão ao passar o mouse */
+}
